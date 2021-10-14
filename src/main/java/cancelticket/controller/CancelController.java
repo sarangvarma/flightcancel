@@ -23,7 +23,7 @@ public class CancelController {
 	
 	
 	
-	@RequestMapping("/")
+	@RequestMapping("/cancel")
 	public String home()
 	{
 		System.out.println("Hello this is home urls");
@@ -44,7 +44,7 @@ public class CancelController {
 			mv.addObject("charge",charge);
 			mv.addObject("refund",refund);
 			mv.setViewName("display");
-		//	dao.deletebooking(book);
+			dao.deletebooking(book);
 			return mv;
 	    
 	
