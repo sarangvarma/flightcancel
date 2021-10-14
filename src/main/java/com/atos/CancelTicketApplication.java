@@ -1,4 +1,4 @@
-package cancelticket;
+package com.atos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

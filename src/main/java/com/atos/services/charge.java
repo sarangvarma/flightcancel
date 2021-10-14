@@ -1,4 +1,4 @@
-package cancelticket.services;
+package com.atos.services;
 
 public class charge {
 

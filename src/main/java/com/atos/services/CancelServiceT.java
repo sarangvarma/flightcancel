@@ -1,12 +1,12 @@
-package cancelticket.services;
+package com.atos.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cancelticket.entities.booking_info;
-import cancelticket.entities.cancel;
-import cancelticket.repositories.CancelRepository;
-import cancelticket.repositories.CancelRepositoryT;
+import com.atos.model.booking_info;
+import com.atos.model.cancel;
+import com.atos.repository.CancelRepository;
+import com.atos.repository.CancelRepositoryT;
 
 @Service
 public class CancelServiceT {

@@ -1,4 +1,4 @@
-package cancelticket.entities;
+package com.atos.model;
 
 import java.util.Date;
 

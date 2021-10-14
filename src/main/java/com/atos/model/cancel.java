@@ -1,4 +1,4 @@
-package cancelticket.entities;
+package com.atos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
